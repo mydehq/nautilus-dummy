@@ -1,5 +1,5 @@
 pkgname=nautilus-dummy
-pkgver=1.0
+pkgver=1.1
 pkgrel=1
 pkgdesc="Dummy package to satisfy nautilus dependency"
 arch=('any')
