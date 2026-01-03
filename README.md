@@ -3,7 +3,7 @@
   <h1>nautilus-dummy</h1>
   <p><b>Dummy package to satisfy nautilus dependency</b></p>
 
-This is a dummy package to satisfy nautilus dependency of many gnome components such as xdg-desktop-portal-gnome.
+This is a dummy package to satisfy nautilus dependency of many gnome components.
 
 </div>
 
