@@ -3,7 +3,7 @@
   <h1>nautilus-dummy</h1>
   <p><b>Dummy package to satisfy nautilus dependency</b></p>
 
-This is a dummy package to satisfy nautilus dependency of many gnome components.
+This is a dummy package to satisfy nautilus dependency of many gnome components.  
 
 </div>
 
@@ -37,9 +37,10 @@ sudo pacman -U nautilus-dummy-*.pkg.tar.zst
 
 ## Portals Setup 
 
-If you have use case where you have to use gnome portal (such as niri), setup guides are below:
+If you have use case where you have to use gnome portal (such as niri), it's file chooser doesn't work without nautilus installed.   
+To fix this:
 
-1. install `xdg-desktop-portal-gtk`.
+1. install `xdg-desktop-portal-gtk`, `aur/nautilus-dummy`.
 2. Add below to `~/.config/xdg-desktop-portal/portals.conf`:
    ```ini
      [preferred]
